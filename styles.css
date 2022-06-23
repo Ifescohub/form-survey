@@ -20,9 +20,8 @@ p{
 }
 
 form{
-    max-width: 100%;
+    max-width: 80%;
     width: 45rem;
-    min-width: 28rem;
     margin: 0 auto;
     background-color: rgb(46, 46, 141);
     font-size: 20px;
@@ -91,4 +90,48 @@ input[type="submit"]{
     background-color: rgb(0, 209, 52);
     color: rgb(232, 232, 248);
     height: 50px;
+}
+
+
+@media (max-width: 720px) {
+    h1, p{
+        font-size: 26px;
+        margin: 50px 0 0 0;
+    }
+    
+    p{
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    
+    form{
+        max-width: 90%;
+        font-size: 15px;
+        padding: 1rem;
+        margin: 40px auto;
+    }
+    
+    input, select{
+        height: 35px;
+        padding-left: 6px;
+        font-size: 14px;
+    }
+    
+    span{
+        font-size: 11px;
+    }
+    
+    .inline{
+        margin-right: 6px;
+        width: 17px;
+    }
+    
+    textarea{
+        min-height: 100px;
+        font-size: 14px;
+    }
+    
+    input[type="submit"]{
+        height: 40px;
+    }
 }
